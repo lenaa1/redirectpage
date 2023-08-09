@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,500;1,700&display=swap');
+
+.app__fullscreen{
+    width: 100%;
+    background-color: #F6EEDE;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 1140px;
+    height: 100vh;
+    background-color: #F6EEDE;
+
+}
+
+*{
+  color: black;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.text__one{
+  height: 115px;
+  font-size: 24px;
+  width: 740px;
+  margin-top: 100px;
+}
+
+span{
+  color: #6D4C39;
+}
+
+.text__two{
+  font-size: 24px;
+  margin-top: 100px;
+}
+
+.text__three{
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.button{
+  width: 350px;
+  height: 60px;
+  background-color: #6D4C39;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F6EEDE;
+  font-size: 18px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #F6EEDE;
+}
